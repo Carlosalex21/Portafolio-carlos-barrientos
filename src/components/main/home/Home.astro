@@ -1,6 +1,6 @@
 ---
-import { Image } from "astro:assets";
-import photoperfil from "../../../../public/img/photo-perfil.webp";
+// import { Image } from "astro:assets";
+// import photoperfil from "../../../../public/img/photo-perfil.webp";
 ---
 
 <div class="content-presentation">
@@ -8,8 +8,8 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   <div class="linear-gradient-1"></div>
   <dir class="container-persentation">
     <div class="container-text">
-      <!-- <h2 class="text-hello">Hola <strong>soy</strong></h2> -->
-      <h2 class="text-name">Osnaider Martinez</h2>
+      <h2 class="text-hello">Hola, <strong>soy</strong></h2>
+      <h2 class="text-name">Carlos Barrientos</h2>
       <div class="container-profession">
         <div>
           <span class="p-profession">D</span>
@@ -28,29 +28,24 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
           <span class="">&nbsp;</span>
         </div>
         <div class="">
-          <span class="p-profession">F</span>
-          <span class="p-profession">r</span>
-          <span class="p-profession">o</span>
-          <span class="p-profession">n</span>
-          <span class="p-profession">t</span>
+          <span class="p-profession">B</span>
+          <span class="p-profession">a</span>
+          <span class="p-profession">c</span>
+          <span class="p-profession">k</span>
           <span class="p-profession">-</span>
           <span class="p-profession">e</span>
           <span class="p-profession">n</span>
           <span class="p-profession">d</span>
           <span class="">&nbsp;</span>
-          <span class="p-profession">J</span>
-          <span class="p-profession">r</span>
         </div>
       </div>
       <p class="p-presentation">
-        Con más de 1 año de experiencia en la creación de experiencias web
-        atractivas y funcionales. Experto en tecnologías front-end, incluyendo
-        HTML5, CSS3, JavaScript y frameworks como React, Next.js, Astro. Capaz
-        de traducir diseños creativos en código interactivo y optimizar la
-        velocidad y el rendimiento del sitio web.
+        Con más de 1 año de experiencia en el desarrollo web utilizando tecnologias como astro en front end
+        con html, css y JavaScript y utilizando Python con Django y Postgresql en back end. Con certificados de microsoft utilizando 
+        C# con .Net y azure.
       </p>
       <div class="container-curriculum">
-        <a href="https://wa.me/+573166026155" target="_blank" class="a-action"
+        <a href="https://wa.me/+584142200584" target="_blank" class="a-action"
           >Hablemos</a
         >
         <a
@@ -61,13 +56,13 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
       </div>
       <div class="container-social">
         <p class="">Echa un vistaso a mi</p>
-        <a href="https://github.com/Osnaider19" target="_blank">
+        <a href="https://github.com/Carlosalex21" target="_blank">
           <li class="li-social">
             <i class="fa-brands fa-github"></i>
           </li>
         </a>
         <a
-          href="https://www.linkedin.com/in/osnaider-mart%C3%ADnez-154b67256/"
+          href="https://www.linkedin.com/in/carlos-barrientos-72b202200/"
           target="_blank"
         >
           <li class="li-social">
@@ -80,7 +75,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
       <div class="photo-perfil">
         <picture>
           {/* If you are not using vercel, place a normal <img> tag */}
-          <Image src={photoperfil} alt="Osnaider Martinez" id="inicio" />
+          <img src="/public/img/foto-perfil.png" alt="Carlos Barrientos" id="inicio" />
         </picture>
       </div>
     </div>
@@ -117,7 +112,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     height: 520px;
     background: radial-gradient(
       at left center,
-      rgba(1, 190, 150, 0.5),
+      #1953e6,
       transparent,
       transparent
     );
@@ -131,7 +126,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     height: 100%;
     background: radial-gradient(
       at right center,
-      rgba(1, 190, 150, 0.6),
+      #1953e6,
       rgb(0, 0, 0),
       rgb(0, 0, 0)
     );
@@ -160,7 +155,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   .text-name {
     padding: 5px 0;
     font-size: 30px;
-    color: #01be96;
+    color: #1953e6;
     font-weight: 800;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -180,7 +175,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
 
   .bouncing {
     transition: 0.8s all;
-    color: #01be96;
+    color: #1953e6;
     animation: rubberband 400ms alternate ease-out;
   }
 
@@ -224,9 +219,9 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
-    border: 1px solid #01be96;
+    border: 1px solid #1953e6;
     font-size: 18px;
-    background-color: #01be96;
+    background-color: #1953e6;
     text-decoration: none;
     color: #f6f6f9;
     transition: 0.3s;
@@ -242,14 +237,14 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     align-items: center;
     padding: 10px 30px;
     color: #f6f6f9;
-    border: 1px solid #01be96;
+    border: 1px solid #1953e6;
     font-size: 18px;
     text-decoration: none;
     transition: 0.3s;
   }
 
   .a-curriculum:hover {
-    background-color: rgba(1, 190, 150, 0.3);
+    background-color: #16337bae;
     transform: translateX(4px);
   }
 
@@ -269,7 +264,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   .li-social {
     position: relative;
     list-style: none;
-    background-color: #01be96;
+    background-color: #1953e6;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     display: flex;
     justify-content: center;
