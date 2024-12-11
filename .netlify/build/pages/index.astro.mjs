@@ -1,11 +1,12 @@
-import { e as createComponent, r as renderTemplate, m as maybeRenderHead, h as createAstro, g as addAttribute, i as renderComponent, j as renderHead } from '../astro_CS_Jh7Qk.mjs';
+import { e as createComponent, r as renderTemplate, m as maybeRenderHead, i as renderScript, h as createAstro, g as addAttribute, j as renderComponent, k as renderHead } from '../chunks/astro/server_epheBVPg.mjs';
 import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
-/* empty css                          */
+/* empty css                                 */
+export { renderers } from '../renderers.mjs';
 
 const $$Header = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<header class="header"> <h1 id="inicio">Portafolio</h1> <nav class="nav"> <ul class="ul-nav"> <a href="#inicio"> <li class="li-nav">Inicio</li> </a> <a href="#proyectos"> <li class="li-nav">Proyectos</li> </a> <a href="#skills"> <li class="li-nav">Habilidades</li> </a> <a href="#estudios"> <li class="li-nav">Estudios</li> </a> <a href="#sobremi"> <li class="li-nav">Sobre mi</li> </a> <a href="#contacto"> <li class="li-nav">Contacto</li> </a> </ul> </nav> <div class="container-bnt-menu"> <div class="btn-menu"> <span class="linea-menu" id="linea1"></span> <span class="linea-menu" id="linea2"></span> <span class="linea-menu" id="linea3"></span> </div> </div> <div class="menu-drop"></div>  </header> `;
+  return renderTemplate`${maybeRenderHead()}<header class="header"> <h1 id="inicio">Portafolio</h1> <nav class="nav"> <ul class="ul-nav"> <a href="#inicio"> <li class="li-nav">Inicio</li> </a> <a href="#proyectos"> <li class="li-nav">Proyectos</li> </a> <a href="#skills"> <li class="li-nav">Habilidades</li> </a> <a href="#estudios"> <li class="li-nav">Estudios</li> </a> <a href="#sobremi"> <li class="li-nav">Sobre mi</li> </a> <a href="#contacto"> <li class="li-nav">Contacto</li> </a> </ul> </nav> <div class="container-bnt-menu"> <div class="btn-menu"> <span class="linea-menu" id="linea1"></span> <span class="linea-menu" id="linea2"></span> <span class="linea-menu" id="linea3"></span> </div> </div> <div class="menu-drop"></div> ${renderScript($$result, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/header/Header.astro?astro&type=script&index=0&lang.ts")} </header> `;
 }, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/header/Header.astro", void 0);
 
 const studies = [
@@ -377,7 +378,7 @@ Soy un profesional en el desarrollo web y de software, especializado en el backe
         Cada día voy aprendiendo y no de varias tecnologias, soy una persona que aunque se adapte my rápido a diferentes teconologías 
         siempre me gusta sacar el mayor provecho con la que me siento mas comodo trabajando, por eso mismo, siempre estoy
         intruyendome y actualizando mis conocimientos.
-</p> </div> <div class="container-svg-about" data-astro-cid-s7v3hz27> <div class="container-svg" data-astro-cid-s7v3hz27> ${renderComponent($$result, "lottie-player", "lottie-player", { "src": "https://assets8.lottiefiles.com/packages/lf20_sg18igu8.json", "background": "transparent", "speed": "1", "style": "width: 380px; height: 380px; position:relative;", "loop": true, "autoplay": true, "data-astro-cid-s7v3hz27": true })} </div> </div> </div> </section>  `;
+</p> </div> <div class="container-svg-about" data-astro-cid-s7v3hz27> <div class="container-svg" data-astro-cid-s7v3hz27> ${renderComponent($$result, "lottie-player", "lottie-player", { "src": "https://assets8.lottiefiles.com/packages/lf20_sg18igu8.json", "background": "transparent", "speed": "1", "style": "width: 380px; height: 380px; position:relative;", "loop": true, "autoplay": true, "data-astro-cid-s7v3hz27": true })} </div> </div> </div> </section> ${renderScript($$result, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/main/about/About.astro?astro&type=script&index=0&lang.ts")} `;
 }, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/main/about/About.astro", void 0);
 
 const $$Skills = createComponent(($$result, $$props, $$slots) => {
@@ -392,7 +393,7 @@ const $$Home = createComponent(($$result, $$props, $$slots) => {
 Con más de 1 año de experiencia en el desarrollo web utilizando tecnologias como astro en front end
         con html, css y JavaScript y utilizando Python con Django y Postgresql en back end. Con certificados de microsoft utilizando 
         C# con .Net y azure.
-</p> <div class="container-curriculum" data-astro-cid-q5kz5pjk> <a href="https://wa.me/+584142200584" target="_blank" class="a-action" data-astro-cid-q5kz5pjk>Hablemos</a> <a href="https://drive.google.com/file/d/1EYTgei3Q90NTKUMfpTtlepL9NmvqIgTz/view?usp=sharing" class="a-curriculum" target="_blank" data-astro-cid-q5kz5pjk>Ver Currículum</a> </div> <div class="container-social" data-astro-cid-q5kz5pjk> <p class="" data-astro-cid-q5kz5pjk>Echa un vistaso a mi</p> <a href="https://github.com/Carlosalex21" target="_blank" data-astro-cid-q5kz5pjk> <li class="li-social" data-astro-cid-q5kz5pjk> <i class="fa-brands fa-github" data-astro-cid-q5kz5pjk></i> </li> </a> <a href="https://www.linkedin.com/in/carlos-barrientos-72b202200/" target="_blank" data-astro-cid-q5kz5pjk> <li class="li-social" data-astro-cid-q5kz5pjk> <i class="fa-brands fa-linkedin" data-astro-cid-q5kz5pjk></i> </li> </a> </div> </div> <div class="container-photo-profile" data-astro-cid-q5kz5pjk> <div class="photo-perfil" data-astro-cid-q5kz5pjk> <picture data-astro-cid-q5kz5pjk>  <img src="/public/img/foto-perfil.png" alt="Carlos Barrientos" id="inicio" data-astro-cid-q5kz5pjk> </picture> </div> </div> </dir> </div>  `;
+</p> <div class="container-curriculum" data-astro-cid-q5kz5pjk> <a href="https://wa.me/+584142200584" target="_blank" class="a-action" data-astro-cid-q5kz5pjk>Hablemos</a> <a href="https://drive.google.com/file/d/1EYTgei3Q90NTKUMfpTtlepL9NmvqIgTz/view?usp=sharing" class="a-curriculum" target="_blank" data-astro-cid-q5kz5pjk>Ver Currículum</a> </div> <div class="container-social" data-astro-cid-q5kz5pjk> <p class="" data-astro-cid-q5kz5pjk>Echa un vistaso a mi</p> <a href="https://github.com/Carlosalex21" target="_blank" data-astro-cid-q5kz5pjk> <li class="li-social" data-astro-cid-q5kz5pjk> <i class="fa-brands fa-github" data-astro-cid-q5kz5pjk></i> </li> </a> <a href="https://www.linkedin.com/in/carlos-barrientos-72b202200/" target="_blank" data-astro-cid-q5kz5pjk> <li class="li-social" data-astro-cid-q5kz5pjk> <i class="fa-brands fa-linkedin" data-astro-cid-q5kz5pjk></i> </li> </a> </div> </div> <div class="container-photo-profile" data-astro-cid-q5kz5pjk> <div class="photo-perfil" data-astro-cid-q5kz5pjk> <picture data-astro-cid-q5kz5pjk>  <img src="/public/img/foto-perfil.png" alt="Carlos Barrientos" id="inicio" data-astro-cid-q5kz5pjk> </picture> </div> </div> </dir> </div> ${renderScript($$result, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/main/home/Home.astro?astro&type=script&index=0&lang.ts")} `;
 }, "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/components/main/home/Home.astro", void 0);
 
 const $$Main = createComponent(($$result, $$props, $$slots) => {
@@ -417,4 +418,13 @@ const $$Index = createComponent(($$result, $$props, $$slots) => {
 const $$file = "C:/Users/pc/Desktop/Portafolio-main/Portafolio-main/src/pages/index.astro";
 const $$url = "";
 
-export { $$Index as default, $$file as file, $$url as url };
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Index,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
