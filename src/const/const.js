@@ -1,19 +1,21 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Desarrollo web con c# y .net",
+    corporation: "LOURTEC - Venezuela",
+    date: "02/2023 – 08/2023",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Desarrollador back end con python y django",
+    corporation: "Platzi - Remoto",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "Desarrollo profesional con Python",
+    corporation: "Udemy - Remoto",
   },
+  {
+    title: "Data Scince y machine learning con python",
+    corporation: "Udemy - Remoto"
+  }
 ];
 
 export const IconKeys = {
@@ -38,6 +40,13 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  wordpress: "wordpress",
+  php: "php",
+  python: "python",
+  django: "django",
+  postgresql: "postgresql",
+  csharp: "csharp",
+  azure: "azure",
   // here add more icon keys
 };
 
@@ -67,10 +76,6 @@ export const skills = [
     icon: IconKeys.react,
   },
   {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
-  {
     title: "Git",
     icon: IconKeys.git,
   },
@@ -80,95 +85,60 @@ export const skills = [
     icon: IconKeys.github,
   },
   {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
+    title: "Wordpress",
+    icon: IconKeys.wordpress,
   },
   {
-    title: "Styled Components",
-    icon: IconKeys.styled,
+    title: "Php",
+    icon: IconKeys.php,
   },
   {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
+    title: "Python",
+    icon: IconKeys.python,
   },
   {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
+    title: "Django",
+    icon: IconKeys.django,
   },
   {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
+    title: "Postgresql",
+    icon: IconKeys.postgresql
   },
   {
-    title: "Vite",
-    icon: IconKeys.vite,
+    title: "C#",
+    icon: IconKeys.csharp,
   },
   {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
-  },
+    icon: IconKeys.azure,
+  }
 ];
 
 export const projects = [
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    img: "../../../img/tienda-puriempaques.png",
+    title: "Tienda online - Puriempaques(VE)",
+    link: "https://puriempaques.com",
+    description: `Tienda online para la empresa puriempaques Desarrollado con wordpress y con implementaciones con php.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.wordpress,
       },
       {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
+        icon: IconKeys.php,
       },
     ],
   },
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "../../../img/tienda-krimarket.png",
+    title: "Tienda online - K-rimarket(VE)",
+    link: "https://k-rimarket.com",
+    description: `Proyecto de tienda online con pasarela de pago. Puedes registrarte como vendedor y publicar tus productos.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.wordpress,
       },
       {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.mongodb,
+        icon: IconKeys.php,
       },
       {
         icon: IconKeys.stripe,
@@ -176,146 +146,55 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-  {
-    img: "../../../img/movie.webp",
-    title: "Movie Tv",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
-    link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
-    technologies: [
-      {
-        icon: IconKeys.html,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
+    img: "../../../img/pagina-licaedca.png",
+    title: "Página informativa - Licaedca(ES)",
+    link: "https://www.licaedca.com/#",
+    description: `Página informativa para empresa de electricidad en España-Valladolid.`,
     technologies: [
       {
         icon: IconKeys.astro,
       },
       {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.tailwind,
+      },
+      {
         icon: IconKeys.css,
+      }
+    ],
+  },
+  {
+    img: "../../../img/pagina-asesores.png",
+    title: "Asesores M&B (En proceso)",
+    // link: "https://store-games-site.netlify.app/",
+    description: `Realizando una pagina ofreciendo los servicios de la empresa,
+                  añadiendo ticket soporte y realizando incorporación de chat bot para clientes.`,
+    technologies: [
+      {
+        icon: IconKeys.wordpress,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.php,
+      },
+    ],
+  },
+  {
+    img: "../../../img/tienda-power.png",
+    title: "Tienda online - Power Excelencia (ES)",
+    link: "https://powerexcelencia.es",
+    description: `Tienda online en España, con pasarela de pago de bancos nacionales(BBVA). Realice el proyecto en Wordpress pero actualmente
+                  estoy migrando el proyecto a python con django para conectarlo con un sistema administrativo propio que esta en desarrollo.`,
+    technologies: [
+      {
+        icon: IconKeys.wordpress,
+      },
+      {
+        icon: IconKeys.react,
       },
       {
         icon: IconKeys.javaScript,
@@ -323,6 +202,43 @@ export const projects = [
       {
         icon: IconKeys.tailwind,
       },
+      {
+        icon: IconKeys.python,
+      },
+      {
+        icon: IconKeys.django
+      },
+      {
+        icon: IconKeys.postgresql
+      }
+    ],
+  },
+  {
+    img: "../../../img/software-power.png",
+    title: "Sistema administrativo - Power Excelencia (ES)(En proceso)",
+    // link: "https://preeminent-liger-266356.netlify.app/",
+    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
+      el ususario puede ver los tailer de él juegos y también los
+      episodios de la serie....`,
+    technologies: [
+      {
+        icon: IconKeys.python,
+      },
+      {
+        icon: IconKeys.django,
+      },
+      {
+        icon: IconKeys.postgresql,
+      },
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.tailwind,
+      }
     ],
   },
 ];
