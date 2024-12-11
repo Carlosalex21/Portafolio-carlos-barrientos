@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
+import vercel from '@astrojs/vercel/serverless';
 
 export default defineConfig({
-  site: 'https://Carlosalex21.github.io',
-  base: 'Portafolio-carlos-barrientos',
-})
+  output: 'server',
+  adapter: vercel(),
+});
