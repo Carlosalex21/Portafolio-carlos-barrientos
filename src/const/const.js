@@ -217,9 +217,8 @@ export const projects = [
     img: "../../../img/software-power.png",
     title: "Sistema administrativo - Power Excelencia (ES)(En proceso)",
     // link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
+    description: `Sistema administrativo que conectara con el inventario de la tienda online. Este sistema administrativo
+                  podrá verse desde la web y descargarse desde un .exe en windows.`,
     technologies: [
       {
         icon: IconKeys.python,
